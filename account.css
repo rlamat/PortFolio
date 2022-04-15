@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,800,900&display=swap');
+@import url('http://fonts.cdnfonts.com/css/allerta-stencil');
+
+
+/*TOUTS LES DROITS D'IMAGES REVIENNENT A LEURS AUTEURS RESPECTIFS/ 
+ ALL IMAGE RIGHTS GO TO THEIR RESPECTIVE AUTHORS */
+/*Si une image ne contient pas sa source, alors c'est qu'elle est libre de droit*/
+
+
+html {
+  display: flex;
+  height: 100%;
+  overflow: hidden;
+  flex-direction: column;
+  overflow: scroll;
+}
+
+body {
+  background-color: rgb(223, 219, 219);
+  margin:0;
+  padding:0;
+  height: 100%;
+  font-family: 'Poppins', sans-serif;
+}
+
+main{
+    display: flex;
+}
+hr{
+  border: 2px solid #1f56bd
+}
+
+div.inscription,div.connection{
+  
+  padding: 100px;
+  justify-content: center;
+  padding: auto;
+  background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(50,41,170,1) 100%); /* Avoir un dégradé de couleur*/
+  border-radius: 7% 93% 21% 79% / 89% 27% 73% 11%; /* permet de donner une former ondulaire , généré avec : https://9elements.github.io/fancy-border-radius/#60.13.14.79--. */
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+
+}
+
+input[type="submit"] {
+  background-color: #4286c5; 
+  border: none; /*Pour enlever la bordure*/
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer; 
+  border-radius: 4px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+
+div.fomulaire{
+  background-color:white;
+  border: 4px solid #1f56bd;
+  padding: 0px 10px;
+  border-radius: 50px;
+}
+
+header{
+  margin-bottom: 80px;
+}
+
+.requis{
+  border: none; 
+}
+
+.requis:focus{
+  outline: none; /*Pour enlever les bordures du input de défaut*/
+}
+
+input[type="checkbox"] {
+    -webkit-appearance: none; /* Pour les autres navigateurs*/
+    -moz-appearance: none; /* Pour mozzila uniquement */
+    appearance: none;
+  } 
+  
+   input:checked[type="checkbox"] /* Aprés avoir cliqué ( "checké" )*/
+   {
+    -webkit-appearance: none; /* Pour les autres navigateurs*/
+    -moz-appearance: none; /* Pour mozzila uniquement */
+    appearance: none;
+  } 
